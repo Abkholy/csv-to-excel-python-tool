@@ -39,8 +39,6 @@ This script converts CSV files to Excel files with multiple sheets if the number
         05- 2024 File.csv
         06- 2024 File.csv
         07- 2024 File.csv
-    [index.py](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CAbdelrahman%20Essam%5C%5CDocuments%5C%5C%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA%20DAHWA%5C%5Cindex.py%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2FC%3A%2FUsers%2FAbdelrahman%20Essam%2FDocuments%2F%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA%20DAHWA%2Findex.py%22%2C%22scheme%22%3A%22file%22%7D%7D)
-    [readme.md](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CAbdelrahman%20Essam%5C%5CDocuments%5C%5C%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA%20DAHWA%5C%5Creadme.md%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2FC%3A%2FUsers%2FAbdelrahman%20Essam%2FDocuments%2F%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA%20DAHWA%2Freadme.md%22%2C%22scheme%22%3A%22file%22%7D%7D)
     ```
 
 ## Usage
@@ -50,7 +48,7 @@ This script converts CSV files to Excel files with multiple sheets if the number
 2. Run the script:
 
     ```sh
-    python [index.py](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CAbdelrahman%20Essam%5C%5CDocuments%5C%5C%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA%20DAHWA%5C%5Cindex.py%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2FC%3A%2FUsers%2FAbdelrahman%20Essam%2FDocuments%2F%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA%20DAHWA%2Findex.py%22%2C%22scheme%22%3A%22file%22%7D%7D)
+    python index.py
     ```
 
 3. The script will iterate through all CSV files in the specified directory and convert them to Excel files with multiple sheets if necessary.
@@ -66,7 +64,7 @@ This script converts CSV files to Excel files with multiple sheets if the number
 
 ## Example
 
-The script will convert CSV files in the specified directory to Excel files. For example, `2022 DAHWA/2022 DAHWA.csv` will be converted to `2022 DAHWA/2022 DAHWA.xlsx`.
+The script will convert CSV files in the specified directory to Excel files. For example, `2022 File/2022 File.csv` will be converted to `2022 File/2022 File.xlsx`.
 
 ## License
 
